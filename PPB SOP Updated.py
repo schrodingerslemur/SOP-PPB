@@ -58,7 +58,7 @@ def getDiscrepancies():
     if disc < 0:
         return str(disc), "Deficient blocks, Use Destination (Production)"
     if disc == 0:
-        return str(disc) + " No extra blocks"
+        return "No extra blocks"
 
 def main():
     # Printing values
