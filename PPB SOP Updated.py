@@ -2,6 +2,8 @@
 try:
     GivQ = "Give quantity (qty) for "
     GivP = "Give price ($) for "
+    Press = "Input value and press enter..."
+    print(Press)
     MfgDate = input("Give Manufacturing date in DD/MM/YYYY: ")
     ExpDate = input("Give Expiry date in DD/MM/YYYY: ")
     Actual = float(input(GivQ + "'No Flavor Add 250g': "))
